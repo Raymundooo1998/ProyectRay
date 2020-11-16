@@ -34,7 +34,7 @@ public class LigasController {
 		computadora.add(new Computadoras(162621524,"LG","Core i5","Fedora",4,4));
 		modelo.addAttribute("Computadoras",computadora);
 		modelo.addAttribute("titulo","Tabla de Computadoras");
-		return "computadoras";
+		return "Computadoras";
 	}
 	
 	@GetMapping("/Tickets")
